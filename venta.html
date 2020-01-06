@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Este es un sitio de producto genial">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Payment📦</title>
+
+  </head> <!-- Cierra head -->
+  <body>
+    <!-- Inicio de nav-->
+    <nav class="fadeInDown">
+      <a href="index.html">
+      <img src="images/logo.png" alt="">
+      </a>
+      <ul>
+        <li>
+          <a href="#">Faqs</a></li>
+        <li>
+          <a href="#">Producto y descripción</a></li>
+      </ul>
+    </nav>
+    <!-- Fin de nav-->
+    <!--Formulario de venta-->
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo_pago">
+                    <div class="modulo_pago_images">
+                        <img src="images/box2.png" alt="">
+                    </div>
+                    <h3>Producto 1</h3>
+                    <p>
+                        Miles de productos hay en el mercado pero nada como una caja de gatitos.
+                    </p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo_pago">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LUQV5S8L958DQ" method="post">
+                        <label for="name">Nombre</label>
+                        <br>
+                        <input type="text" placeholder="" name="name" class="data">
+                        <br>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="text" placeholder="" name="email" class="data">
+                        <br>
+                        <label for="phone">Teléfono</label>
+                        <br>
+                        <input type="text" placeholder="" name="phone" class="data">
+                        <br>
+                        <input type="submit" class="main_btn" name="submit" value="Confirmar pago">
+                    </form>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <!-- Fin formulario de venta-->
+    <!-- Inicio de footer -->
+    <footer>
+      <div class="option">Terminos y condiciones</div>
+    </footer>
+    <!-- Fin de Footer -->
+
+    <!-- Script -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="scripts/script.js"></script>
+</body> <!-- Cierra body -->
+</html> <!-- Cierra html -->
